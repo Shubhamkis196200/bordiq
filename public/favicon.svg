@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#0A0A0F"/>
+  <!-- Shield outline -->
+  <path d="M16 3 L27 8 L27 17 C27 22.5 22.5 27 16 30 C9.5 27 5 22.5 5 17 L5 8 Z" fill="#DC2626"/>
+  <!-- Lightning bolt cutout -->
+  <path d="M18 7L12 17H15.5L13 25L22 14H17.5L20 7Z" fill="#0A0A0F"/>
+</svg>
