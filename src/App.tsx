@@ -1,3 +1,4 @@
+import { C } from './colors'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -11,18 +12,6 @@ import Contact from './pages/Contact'
 import Careers from './pages/Careers'
 import Legal from './pages/Legal'
 
-const C = {
-  bg: '#0A0A0F',
-  card: '#0D0D14',
-  elevated: '#111118',
-  border: '#1A1A2A',
-  red: '#E53E3E',
-  redHover: '#C53030',
-  text: '#E5E5E5',
-  muted: '#888888',
-  dim: '#555555',
-}
-export { C }
 
 export default function App() {
   return (

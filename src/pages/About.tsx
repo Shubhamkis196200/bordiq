@@ -1,4 +1,4 @@
-import { C } from '../App'
+import { C } from '../colors'
 
 const team = [
   { name: 'ALEKSANDER DĄBROWSKI', title: 'CEO & Co-Founder', bio: 'Former CERT.PL analyst. 12 years in threat intelligence and incident response for critical infrastructure.' },

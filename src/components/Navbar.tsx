@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { C } from '../App'
+import { C } from '../colors'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)

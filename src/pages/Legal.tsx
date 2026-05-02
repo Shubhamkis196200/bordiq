@@ -1,4 +1,4 @@
-import { C } from '../App'
+import { C } from '../colors'
 
 export default function Legal() {
   return (

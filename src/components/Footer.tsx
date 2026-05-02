@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { C } from '../App'
+import { C } from '../colors'
 
 export default function Footer() {
   return (

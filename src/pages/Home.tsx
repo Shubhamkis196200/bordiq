@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import FundingBanner from '../components/FundingBanner'
-import { C } from '../App'
+import { C } from '../colors'
 
 const terminalLines = [
   { text: '> INITIALIZING BORDIQ THREAT DETECTION ENGINE...', color: C.muted },

@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { C } from '../App'
+import { C } from '../colors'
 
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>()

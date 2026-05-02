@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { C } from '../App'
+import { C } from '../colors'
 
 const openings = [
   { title: 'Senior Threat Intelligence Analyst', dept: 'RESEARCH', location: 'Wrocław / Remote', type: 'FULL-TIME' },

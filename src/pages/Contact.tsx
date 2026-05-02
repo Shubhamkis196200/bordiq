@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { C } from '../App'
+import { C } from '../colors'
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
