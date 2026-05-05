@@ -182,3 +182,32 @@
     border-right-color: var(--border);
   }
 }
+
+.newsroom-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.9fr);
+  gap: 40px;
+  align-items: start;
+}
+
+.newsroom-post-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.newsroom-story-grid,
+.newsroom-investor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+@media (max-width: 960px) {
+  .newsroom-layout,
+  .newsroom-post-grid,
+  .newsroom-story-grid,
+  .newsroom-investor-grid {
+    grid-template-columns: 1fr;
+  }
+}

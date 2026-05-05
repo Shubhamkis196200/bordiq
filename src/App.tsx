@@ -12,10 +12,17 @@ import Contact from './pages/Contact'
 import Careers from './pages/Careers'
 import Legal from './pages/Legal'
 
-
 export default function App() {
   return (
-    <div style={{ minHeight: '100vh', backgroundColor: C.bg, color: C.text, display: 'flex', flexDirection: 'column' }}>
+    <div
+      style={{
+        minHeight: '100vh',
+        backgroundColor: C.bg,
+        color: C.text,
+        display: 'flex',
+        flexDirection: 'column',
+      }}
+    >
       <Navbar />
       <main style={{ flex: 1 }}>
         <Routes>
@@ -23,6 +30,8 @@ export default function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/about" element={<About />} />
+          <Route path="/newsroom" element={<Blog />} />
+          <Route path="/newsroom/:slug" element={<BlogPost />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact" element={<Contact />} />
